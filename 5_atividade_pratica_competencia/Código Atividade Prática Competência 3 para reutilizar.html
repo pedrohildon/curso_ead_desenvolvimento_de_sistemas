@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+  <div id="site">
+    <div id="cabecalho">
+      <h1>DEVSOLUTIONS</h1>
+        <div id="menu-principal">
+            <ul id="lista">
+                <li id="home" class="inline">
+                    <a class="a1" href="index.html">Home</a>
+                </li>
+                <li id="empresa" class="inline">
+                    <a class="a1" href="empresa.html">Empresa</a>
+                </li>
+                <li id="servicos" class="inline">
+                    <a class="a1" href="servicos.html">Serviços</a>
+                </li>
+                <li id="contato" class="inline">
+                    <a class="a1" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+<div id="form">
+  <p id="form-1">Caso tenha surgido alguma dúvida, envie uma mensagem com sua dúvida. Para isso, preencha o formulário abaixo</p>
+    <br>
+  <form action="www.google.com.br/search" method="post">
+
+      <div  class="b4">
+        <label for="nome" name="formu_nome"> Seu nome: </label>
+        <input class="b1 b2" type="text" id="name" placeholder="Digite seu nome*" />
+          <br>
+      </div>
+
+      <div  class="b4">
+        <label for="telefone" name="form_telefone"> Seu telefone: </label>
+        <input class="b1 b2" type="number" id="telefone" placeholder="Digite seu telefone" />
+          <br class="b4">
+      </div>
+
+      <div  class="b4">
+        <label for="email" name="form_email"> Seu E-mail: </label>
+        <input class="b1 b2" type="text" id="email" placeholder="Digite seu E-mail*" />
+          <br class="b4">
+      </div>
+
+      <div  class="b4">
+        <span>Deseja receber nossas novidades?</span>
+          <br class="b4">
+        <input class="b3" type="radio" id="novidades" name="novidades" value="sim" />
+        <label for="novidades">Sim</label>
+        <input class="b3" type="radio" id="novidades" name="novidades" value="não" />
+        <label for="novidades">Não</label>
+          <br>
+      </div>
+
+      <div  class="b4">
+        <label for="mensagem" name="form_mensagem">Sua mensagem:</label>
+        <input class="b1 b2" type="text" id="mensagem" placeholder="Mensagem*" />
+          <br>
+      </div>
+
+    <button id="button" type="submit" name="botão"> Enviar </button>
+  </form>
+</div>
+
+<div id="rodape">
+    <h3> Dados da empresa </h3>
+        <p id="endereco">
+            Rua José Bonifácio, 123, Recife
+            <br>
+            CEP 50800-000
+            <br>
+            Recife - PE
+        </p>
+        <p id="telefone-email">
+            Email: contato@exemplo.com.br
+            <br>
+            Telefone: <span class="ddd">81</span> 5555-5555
+        </p>
+
+        <small id="copyright">
+            &copy; Empresa Ltda. Todos os Direitos Reservados.
+        </small>
+  </div>
+
+</body>
+
+</html>

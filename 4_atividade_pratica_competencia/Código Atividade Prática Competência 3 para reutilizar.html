@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+<div id="site">
+    <div id="cabecalho">
+      <h1>DEVSOLUTIONS</h1>
+        <div id="menu-principal">
+            <ul id="lista">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="ativo" href="empresa.html">Empresa</a>
+                </li>
+                <li>
+                    <a href="servicos.html">Serviços</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="conteudo">
+        <div id="conteudo-principal">
+
+            <!-- conteúdo da seção Empresa aqui -->
+
+        </div>
+        <div id="conteudo-secundario">
+
+            <!-- conteúdo da seção Empresa aqui -->
+
+        </div>
+    </div>
+</div>
+<div id="form">
+  <p>Caso tenha surgido alguma dúvida, envie uma mensagem com sua dúvida. Para isso, preencha o formulário abaixo</p>
+    <br>
+  <form action="www.google.com.br/search" method="post">
+      <label for="nome" name="formu_nome"> Seu nome: </label>
+      <input type="text" id="name" placeholder="Digite seu nome*" />
+        <br>
+      <label for="telefone" name="form_telefone"> Seu telefone: </label>
+      <input type="number" id="telefone" placeholder="Digite seu telefone" />
+        <br>
+      <label for="email" name="form_email"> Seu E-mail: </label>
+      <input type="text" id="email" placeholder="Digite seu E-mail*" />
+        <br>
+    <span>Deseja receber nossas novidades?</span>
+      <input type="radio" id="novidades" name="novidades" value="sim" />
+      <label for="novidades">Sim</label>
+      <input type="radio" id="novidades" name="novidades" value="não" />
+      <label for="novidades">Não</label>
+        <br>
+      <label for="mensagem" name="form_mensagem">Sua mensagem:</label>
+      <input type="text" id="mensagem" placeholder="Mensagem*" />
+        <br>
+    <button type="submit" name="botão"> Enviar </button>
+  </form>
+</div>
+
+<div id="rodape">
+    <h3> Dados da empresa </h3>
+        <p id="endereco">
+            Rua José Bonifácio, 123, Recife
+            <br>
+            CEP 50800-000
+            <br>50800-000
+            Recife - PE
+        </p>
+        <p id="telefone-email">
+            Email: contato@exemplo.com.br
+            <br>
+            Telefone: <span class="ddd">81</span> 5555-5555
+        </p>
+
+        <small id="copyright">
+            &copy; Empresa Ltda. Todos os Direitos Reservados.
+        </small>
+  </div>
+
+</body>
+</html>

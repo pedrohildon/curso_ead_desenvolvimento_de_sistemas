@@ -1,0 +1,51 @@
+/*  Folha de estilo da atividade prática 4 da disciplina Introdução a Web Design. */
+
+@charset "UTF-8";
+
+/*  Inicio da estilização do <div id="cabecalho">.  */
+#cabecalho {
+  background-image: url(fundo.jpg);
+}
+
+#lista {
+  list-style-type: none;
+}
+
+a:link {
+  color: #ffffff;
+}
+a:visited {
+  color: #ff0000
+}
+a:hover {
+  color: #ffa500;
+  }
+a:active {
+  color: #ff0000
+}
+
+h1 {
+  color: #ffa500;
+}
+
+/*  Fim da estilização do <div id="cabecalho">.  */
+
+/*   Inicio da estilização do <div id="form"> */
+#form {
+  background-color: white;
+  border-width: thin;
+  border-style: outset;
+  border-color: #d3d3d3;
+  font-weight: bold;
+
+}
+/*   Fim da estilização do <div id="form"> */
+
+/*   Inicio da estilização do <div id="form"> */
+
+#rodape {
+  background-image: url(fundo.jpg);
+  text-align: center;
+}
+
+/*   Fim da estilização do <div id="form"> */

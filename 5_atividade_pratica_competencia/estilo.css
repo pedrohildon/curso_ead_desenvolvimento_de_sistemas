@@ -1,0 +1,116 @@
+/*  Folha de estilo da atividade prática 4 da disciplina Introdução a Web Design. */
+
+@charset "UTF-8";
+
+/*  Inicio da estilização do <div id="cabecalho">.  */
+#cabecalho {
+  background-image: url(fundo.jpg);
+}
+
+#home {
+  background: url(ico_home.gif) no-repeat left;
+}
+
+#empresa {
+  background: url(ico_puce.gif) no-repeat left;
+}
+
+#servicos {
+  background: url(ico_search.gif) no-repeat left;
+}
+
+#contato {
+  background: url(ico_arrow_orange.gif) no-repeat left;
+}
+
+.inline {
+  display: inline-block;
+  text-indent: 20px;
+  font-weight: bold;
+  width: 120px;
+}
+
+.a1 {
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+}
+a:visited {
+  color: #ff0000;
+}
+a:hover {
+  color: #ffa500;
+}
+a:active {
+  color: #ff0000;
+}
+h1 {
+  color: #ffa500;
+}
+
+/*  Fim da estilização do <div id="cabecalho">.  */
+
+/*   Inicio da estilização do <div id="form"> */
+#form {
+  background-color: white;
+  border-width: thin;
+  border-style: outset;
+  border-color: #d3d3d3;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 15px;
+}
+
+#form-1 {
+  font-size: 18px;
+  margin-bottom: inherit;
+}
+
+.b1 {
+  width: 98%;
+}
+.b2 {
+  border-radius: 15px;
+  border-width: thin;
+  height: 30px;
+  border-color: #d3d3d3;
+}
+.b4 {
+  margin-top: 10px;
+  margin-left: 10px;
+  text-indent: 10px;
+}
+
+#mensagem {
+  height: 80px;
+  line-height: 1.5;
+  position: relative;
+}
+#mensagem::placeholder {
+  position: absolute;
+  top: 10px;
+}
+
+#button {
+  border: none;
+  border-radius: 15px;
+  background-color: #d3d3d3;
+  font-weight: bold;
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+  align-items: center;
+  margin-left: 44%;
+}
+/*   Fim da estilização do <div id="form"> */
+
+/*   Inicio da estilização do <div id="form"> */
+
+#rodape {
+  background-image: url(fundo.jpg);
+  text-align: center;
+  color: white;
+}
+/*   Fim da estilização do <div id="form"> */
